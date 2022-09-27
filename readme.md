@@ -4,4 +4,4 @@ Esse projeto é para finalidade de estudos com o objetivo de criar uma página w
 Linguagens utilizadas:
 HTML
 CSS
-Javascript
+Javascript 
