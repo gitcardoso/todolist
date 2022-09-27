@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="estilos.css"/>
+
+</head>
+<body>
+    <main>
+        <div class="conteudo">
+            <div class="topo">
+                <!--Área para digitar tarefa-->
+                <input type="text" id="novatarefa" placeholder="Adicione uma nova tarefa...">
+                
+                <!-- Botão + ícone de adicionar-->
+                <button id="btnaddtarefa">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </div>
+
+            <!-- Lista com tarefas armazenadas-->
+            <ul id="listatarefas">
+                <li>
+                    <!-- Tarefa Armazenada -->
+                    <span class="textotarefa">
+                        tarefa 1
+                    </span>
+
+                    <div>
+                    <!-- Icone Editar -->
+                    <button class="btnacao">
+                        <i class="fa fa-pencil"></i>
+                    </button>
+
+                     <!-- Icone Excluir -->
+                     <button class="btnacao">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                   </div>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <script src="tarefas.js"></script>
+</body>
+</html>
