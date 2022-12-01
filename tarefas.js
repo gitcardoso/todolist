@@ -2,11 +2,11 @@ let novatarefa = document.querySelector('#novatarefa');
 let btnaddtarefa = document.querySelector('#btnaddtarefa');
 let listatarefas = document.querySelector('#listatarefas');
 
-
 novatarefa.addEventListener('keypress', (e) => {
     //keycode.info para descobrir código das teclas
     //13 == ENTER
-    if (e.keycode == 13) { 
+    if (e.key === 'Enter) {
+        console.log(e.key);
 
         let tarefa = {
 
